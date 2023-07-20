@@ -12,7 +12,9 @@ Sinh viên thường xuyên gặp khó khăn trong việc quản lý tiền sinh
 6.	Tích hợp với các hệ thống khác: Cơ sở dữ liệu theo dõi chi phí có thể được tích hợp với các hệ thống hoặc ứng dụng tài chính khác, chẳng hạn như phần mềm kế toán hoặc ứng dụng dành cho thiết bị di động, để hợp lý hóa việc nhập dữ liệu và đảm bảo tính nhất quán trên các nền tảng.
 ## Database design
 ### Entity-Relationship diagram
+![erd-expense_tracker drawio](/assets/erd-expense_tracker.drawio.png)
 ### Table
+![er-expense_tracker drawio](/assets/er-expense_tracker.drawio.png)
 ## Function
 **1. Xem tất cả các chi tiêu của bản thân:**  Người dùng có thể xem được tất cả transaction mà người đó đã thêm vào cơ sở dữ liệu từ trước đến hiện tại và không thể xem được của những người khác. Người dùng phải nhập tài khoản và mật khẩu để xác thực. Khi nhập sai tài khoản, mật khẩu hệ thống sẽ thông báo lỗi và chức năng không được thực hiện.
 
