@@ -4,8 +4,9 @@ Cơ sở dữ liệu theo dõi chi phí được thiết kế để nắm bắt 
 ## Why the project is useful
 Sinh viên thường xuyên gặp khó khăn trong việc quản lý tiền sinh hoạt bố mẹ gửi hàng tháng. Do không thống kê lại các chi tiêu của bản thân, không có chiến lược chi tiêu hợp lý dẫn đến việc chưa hết tháng thì tiền đã hết. Điều đó gây ra rất nhiều khó khăn và biến bản thân thành một con người không có kế hoạch. Cơ sở dữ liệu theo dõi chi phí là một hệ thống được thiết kế để lưu trữ và quản lý thông tin tài chính liên quan đến chi phí. Nó được các cá nhân sử dụng để theo dõi và phân tích mô hình chi tiêu, phân bổ ngân sách và sức khỏe tài chính tổng thể. Cơ sở dữ liệu đóng vai trò là kho lưu trữ trung tâm để ghi lại, tổ chức và truy xuất dữ liệu chi phí, cho phép người dùng giám sát hiệu quả các khoản chi tiêu của họ và đưa ra các quyết định tài chính sáng suốt.
 ## How users can get started with the project
-Download the `expense_tracker_db.sql` file and use pgadmin 4 
-
+Download the `expense_tracker_db.sql` file and use pgadmin 4 to restore.
+![](/assets/pgadmin4_1.png)
+![](/assets/pgadmin4_2.png)
 ## Requirments
 1.	Thêm giao dịch mới: Người dùng có thể nhập chi tiết giao dịch của họ vào cơ sở dữ liệu, bao gồm số tiền, ngày, danh mục và phương thức thanh toán. 
 2.	Phân loại chi phí: Cơ sở dữ liệu cho phép người dùng chỉ định từng khoản chi phí vào một danh mục cụ thể, giúp phân tích các mô hình chi tiêu và xác định các khoản tiết kiệm tiềm năng dễ dàng hơn. Cảnh báo khi chạm tới mức giới hạn hoặc khi có các chi tiêu bất thường xảy ra.
